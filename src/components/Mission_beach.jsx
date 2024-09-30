@@ -1,13 +1,12 @@
 import mission_beach  from '../assets/img/mission-beach.jpg';
 import PropTypes from 'prop-types';
 
-export const Mission_beach = ( {props} ) => {
+export const Mission_beach = ( {className} ) => {
   return (
-    <img src={mission_beach} alt="Mission_beach"
-    className={props.className} />
+    <img src={mission_beach} alt="Mission_beach" className={className} />
   )
 }
 
-mission_beach,PropTypes = {
+mission_beach.propTypes = {
   className: PropTypes.string
 }
