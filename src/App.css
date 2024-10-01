@@ -12,7 +12,7 @@
     border-radius: 10px; /* Bordes redondeados de 10px */
     object-fit: content; /* Ajuste de la imagen para que se adapte al contenedor */
   }
-
+  
   /* ===================================
       Media Query para pantallas pequeñas
      =================================== */
@@ -20,24 +20,24 @@
     .main-img-container {
       max-height: 300px; /* Limitar la altura a 300px en pantallas pequeñas */
     }
-
+  
     .thumbnail-container {
       height: 80px !important; /* Forzar una altura de 80px para el contenedor de miniaturas */
       flex-wrap: wrap !important; /* Forzar que los elementos se envuelvan en pantallas pequeñas */
     }
-
+  
     .thumbnail-image-size {
       max-width: 50px !important; /* Limitar el ancho a 50px */
       max-height: 50px !important; /* Limitar la altura a 50px */
       flex-basis: 50px !important; /* Definir una base de tamaño de 50px para cada miniatura */
     }
-
+  
     figcaption {
       font-size: 10px; /* Reducir el tamaño del texto del pie de figura */
       height: 25px; /* Ajustar la altura del pie de figura a 25px */
     }
   }
-
+  
   /* ===================================
       Estilos para el contenedor de miniaturas
      =================================== */
@@ -51,7 +51,7 @@
     margin: 0; /* Sin margen adicional */
     padding: 0; /* Sin relleno adicional */
   }
-
+  
   /* ===================================
       Estilos para el tamaño y diseño de las miniaturas
      =================================== */
@@ -64,13 +64,13 @@
     margin: 0; /* Sin margen adicional */
     padding: 0; /* Sin relleno adicional */
   }
-
+  
   .thumbnail-image-size img {
     width: 100%; /* Asegurar que la imagen ocupe todo el ancho del contenedor */
     height: 100%; /* Asegurar que la imagen ocupe toda la altura del contenedor */
     object-fit: cover; /* Asegurar que la imagen cubra el contenedor sin deformarse */
   }
-
+  
   /* ===================================
       Estilos para los enlaces de las miniaturas
      =================================== */
@@ -83,12 +83,12 @@
     box-shadow: 0 2px 2px rgba(0,0, 0,1); /* Añadir una sombra ligera alrededor del enlace */
     transition: all 0.25s; /* Suavizar las transiciones */
   }
-
+  
   .links:hover {
     transform: translateY(-15px); /* Desplazar el enlace hacia arriba al hacer hover */
     box-shadow: 0 12px 16px rgba(0,0,0,1); /* Aumentar la sombra al hacer hover */
   }
-
+  
   /* ===================================
       Estilos para el pie de figura (texto debajo de las miniaturas)
      =================================== */
@@ -105,7 +105,7 @@
     margin: 0; /* Sin margen adicional */
     padding: 0; /* Sin relleno adicional */
   }
-
+  
   /* ===================================
       Estilos generales para las figuras que contienen las miniaturas
      =================================== */
@@ -121,7 +121,7 @@
     margin: 0; /* Sin margen adicional */
     padding: 0; /* Sin relleno adicional */
   }
-
+  
   /* ===================================
       Estilos para el título principal del proyecto
      =================================== */

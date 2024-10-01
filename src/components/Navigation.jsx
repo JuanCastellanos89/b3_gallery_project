@@ -1,43 +1,50 @@
-import { Link } from "react-router-dom";
-import { Atlantic_ocean } from "./Atlantic_ocean";
-import { Beach_1 } from "./Beach_1";
-import { Beach_4 } from "./Beach_4";
-import { Bora_bora } from "./Bora_bora";
-import { Mission_beach } from "./Mission_beach";
+import { Link } from "react-router-dom"
+import { Beachs1 } from "./Beachs1";
+import { Beachs2 } from "./Beachs2";
+import { Beachs3 } from "./Beachs3";
+import { Beachs4 } from "./Beachs4";
+import { Beachs5 } from "./Beachs5";
+import { Beachs6 } from "./Beachs6";
 
 export const Navigation = () => {
   return (
-    <div className="container thumbnail-container mt-2">
-      <Link to="/atlantic-ocean" className="links">
+    <div className="container thumbnail-container mt2">
+        <Link to='/Beach1'className="links">
         <figure className="thumbnail-image-size">
-          <Atlantic_ocean />
-          <figcaption>Atlantic ocean</figcaption>
+            <Beachs1/>
+            <figcaption>Beach 1</figcaption>
         </figure>
-      </Link>
-      <Link to="/beach_1" className="links">
+        </Link>
+        <Link to='/Beach2'className="links">
         <figure className="thumbnail-image-size">
-          <Beach_1 />
-          <figcaption>Beach 1</figcaption>
+            <Beachs2/>
+            <figcaption>Beach 2</figcaption>
         </figure>
-      </Link>
-      <Link to="/beach_4" className="links">
+        </Link>
+        <Link to='/Beach3'className="links">
         <figure className="thumbnail-image-size">
-          <Beach_4 />
-          <figcaption>Beach 4</figcaption>
+            <Beachs3/>
+            <figcaption>Beach 3</figcaption>
         </figure>
-      </Link>
-      <Link to="/bora_bora" className="links">
+        </Link>
+        <Link to='/Beach4'className="links">
         <figure className="thumbnail-image-size">
-          <Bora_bora />
-          <figcaption>Bora bora</figcaption>
+            <Beachs4/>
+            <figcaption>Beach 4</figcaption>
         </figure>
-      </Link>
-      <Link to="/mission_beach" className="links">
+        </Link>
+        <Link to='/Beach5'className="links">
         <figure className="thumbnail-image-size">
-          <Mission_beach />
-          <figcaption>Mission beach</figcaption>|
+            <Beachs5/>
+            <figcaption>Beach 5</figcaption>
         </figure>
-      </Link>
+        </Link>
+        <Link to='/Beach6'className="links">
+        <figure className="thumbnail-image-size">
+            <Beachs6/>
+            <figcaption>Beach 6</figcaption>
+        </figure>
+        </Link>
     </div>
-  );
-};
+  )
+}
